@@ -16,10 +16,11 @@ git push origin main -f
 # error and warning
     As it is stated in the Error message you have to "fetch first." This worked for me. Use the command:
 
-git fetch origin master
+1. git fetch origin master/main
+    
 Then follow these steps to merge:
 
-git pull origin master
-git add .
-git commit -m 'your commit message'
-git push origin master
+2. git pull origin master
+3. git add .
+4. git commit -m 'your commit message'
+5. git push origin master/main
